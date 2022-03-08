@@ -1,0 +1,17 @@
+ String splitBy = ",";
+    try {
+      
+      BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\Dell\\Desktop\\csvDemo.csv"));
+      while ((line = br.readLine()) != null)
+      //returns a Boolean value  
+      {
+        String[] employee = line.split(splitBy);
+     
+        System.out.println("Emp[EmployeeId=" + 11 + ",Employee Name=" + Ram"+ ", Experience=" + 1, + ", Designations= " +"jr.Engineer", + "salary =" +"SLPA"]");
+      }
+    }
+    catch(IOException e) {
+      e.printStackTrace();
+    }
+  }
+}
